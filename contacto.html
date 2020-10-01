@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Claudia Abigail Escobar Lazarte" />
+    <!--Descripcion de la pagina-->
+    <meta name="description" content="Contactarse con el refugio de animales"/>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@300&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">   
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/MainContacto.css" type="text/css" media="screen">
+    <link rel="StyleSheet" href="css/Normalize.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="mi-coleccion-de-iconos/font/flaticon.css" type="text/css" media="screen" >
+
+    <title>Contacto - Bienestar Animal</title>
+    <link rel="shortcut icon" href="Imagenes/patita.jpg">
+
+</head>
+
+<body>
+    <header>
+        <!--Logo de la cabecera-->
+        <div id="logo">
+            <img src="Imagenes/Logotipo.jpg" alt="">
+        </div>
+        <div id="NavBuscador">
+            <!--Menu de navegacion-->
+            <nav>
+                <ul class="Navegacion">
+                    <li class="Boton menu"><a href="#" onclick="MenuDesplegable()"><i class="flaticon-simbolo-de-menu-de-tres-lineas-paralelas"></i> MENU</a></li>
+                    <li class="Boton n1"><a href="index.html">HOME</a></li>
+                    <li class="Boton n1"><a href="Informacion.html">SOBRE NOSOTROS</a> </li>
+                    <li class="Boton n1 adopcion"><a href="Adopcion.html">ADOPCION<i class="flaticon-flecha-hacia-abajo-para-navegar"></i></a> 
+                        <ul>
+                            <li></li>
+                            <li class="desplegable"><a href="Historias.html">REFUGIO</a></li>
+                            <li class="desplegable"><a href="Adoptados.html">ADOPTADOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="Boton n1"><a href="donaciones.html">DONACIONES</a> </li>
+                    <li class="Boton n1 activo"><a href="contacto.html">CONTACTO<i class="flaticon-email"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="Container">
+        <form action="Comunicar">
+            <div id="Formulario">
+                <h1>CONTACTO</h1>
+                <h3>Rellene este formulario para ponerse en contacto con nosotros.</h3>
+                <h3>Envíanos una mensaje!</h3>
+                <div> 
+                    <h3>Tu email (requerido): </h3>
+                    <input class="Mensaje email" type="email" placeholder ="Ingrese su correo" required>
+                </div>
+                <div> 
+                    <h3>Tu nombre (requerido): </h3>
+                    <input class="Mensaje nombre" type="text" placeholder = "Ingrese su nombre" required>
+                </div>
+                <div> 
+                    <h3>Asunto: </h3>
+                    <input class="Mensaje subject" type="text" placeholder = "Breve descripción de mensaje" >
+                </div>
+                <div> 
+                    <h3>Tu mensaje: </h3>
+                    <textarea class="Mensaje mensaje" name="comentarios" placeholder="Escriba el mensaje detalladamente"></textarea>
+                </div>
+                <div class="Boton enviar">
+                    <a href="Mensaje.html" class="button">Enviar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+     <!--Pie de pagina-->
+     <footer>
+        <!--Logo-->
+        <img src="Imagenes/Logotipo.jpg" alt="">
+        <!--Informacion de la organizacion-->
+        <div id="Contenedor">
+            <div id="Direccion">
+                <h3>Dirección</h3>
+                <p class="direccion"><i class="flaticon-marcador-de-posicion"></i> Av. Beijing esq. Dorbigni acera sureste
+                    Cochabamba.</p>
+                <p class="telefono"><i class="flaticon-llamada-telefonica"></i> Teléfono: 2308080 -77229500</p>
+            </div>
+        </div>
+        <!--Redes sociales-->
+        <div id="RedesSociales">
+            <ul>
+                <li class="Redes Facebook"><img src="Imagenes/facebook.svg" alt="">Bienestar Animal CBBA</li>
+                <li class="Redes Instagram"><img src="Imagenes/instagram.svg" alt=""> @Bienestar_Animal</li>
+                <li class="Redes Youtube"><img src="Imagenes/youtube.svg" alt="">Bienestar Animal Play</li>
+            </ul>
+        </div>
+        <div class="Creditos">
+            <h6>Desarrollado por:</h6>
+            <p>Claudia Abigail Escobar Lazarte</p>
+            <p>Estudiante de Ingenieria de sistemas</p><br>
+            <a href="https://api.whatsapp.com/send?phone=59175465614&text=Hola!%20Quiero%20mas%20informacion%20sobre%20tu%20trabajo." target="_blank">Contactame!</a><br><br>
+        </div>
+        <div id="DerechosReservados">
+            <div>
+                <p>
+                    Bienestar Animal Bolivia © 2020 | All Rights Reserved <br><br>
+                    <script src="JS/ObtenerFechaHora.js"></script>
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+
+<!--JS-->
+<script src="JS/Menu.js"></script>
+
+</body>
+</html>

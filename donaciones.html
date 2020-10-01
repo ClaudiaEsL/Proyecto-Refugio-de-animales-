@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Claudia Abigail Escobar Lazarte" />
+    <!--Descripcion de la pagina-->
+    <meta name="description" content="Informacion sobre la donacion a un refugio de animales"/>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Grandstander:wght@300&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/MainDonacion.css" type="text/css" media="screen">
+    <link rel="StyleSheet" href="css/Normalize.css" type="text/css" media="screen" >
+    <link rel="stylesheet" href="mi-coleccion-de-iconos/font/flaticon.css" type="text/css" media="screen" >
+    
+    <title>Donaciones - Bienestar Animal</title>
+    <link rel="shortcut icon" href="Imagenes/patita.jpg">
+
+    <!---->
+</head>
+
+<body>
+    <header>
+        <!--Logo de la cabecera-->
+        <div id="logo">
+            <img src="Imagenes/Logotipo.jpg" alt="">
+        </div>
+        <div id="NavBuscador">
+            <!--Menu de navegacion-->
+            <nav>
+                <ul class="Navegacion">
+                    <li class="Boton menu"><a href="#" onclick="MenuDesplegable()"><i class="flaticon-simbolo-de-menu-de-tres-lineas-paralelas"></i> MENU</a></li>
+                    <li class="Boton n1"><a href="index.html">HOME</a></li>
+                    <li class="Boton n1"><a href="Informacion.html">SOBRE NOSOTROS</a> </li>
+                    <li class="Boton n1 adopcion"><a href="Adopcion.html">ADOPCION<i class="flaticon-flecha-hacia-abajo-para-navegar"></i></a> 
+                        <ul>
+                            <li></li>
+                            <li class="desplegable"><a href="Historias.html">REFUGIO</a></li>
+                            <li class="desplegable"><a href="Adoptados.html">ADOPTADOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="Boton n1 activo"><a href="donaciones.html">DONACIONES</a> </li>
+                    <li class="Boton n1"><a href="contacto.html">CONTACTO<i class="flaticon-email"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="Container">
+        <!--Main-->
+        <Main>
+            <h2 class="Pagina">DONACIONES</h2>
+            <!--Articulo sobre que cosas una persona puede donar-->
+            <h1>¿Que cosas puedes donar al refugio?</h1>
+            <article>
+                <div id="Contenido">
+                    <div class="punto">
+                        <h2>Alimento</h2>
+                        <p>Una de las donaciones más útil es el 
+                        alimento para mascotas. Este nunca estará demás 
+                        y será agradecido por el animal benficiado.</p>
+                    </div>
+                    <div class="punto">
+                        <h2>Medicamentos</h2>
+                        <p>No es una donación muy común, puesto que muchas personas 
+                        olvidan que los animales también padecen de enfemedades.</p>
+                    </div>
+                    <div class="punto">
+                        <h2>Juguetes</h2>
+                        <p>Especialmente lo más pequeños, gustan mucho de jugar (no sólo entre ellos). Los 
+                        juguetes para mascotas estimulan el cerebro de los animales y 
+                        los ayudan con su desempeño motriz. </p>
+                    </div>
+                    <div class="punto">
+                        <h2>Cojin para domir</h2>
+                        <p>Puedes donar mantas, toallas o cojines normales, 
+                        para que los animales puedan dormir sobre ello.</p>
+                    </div>
+                    <div class="punto">
+                        <h2>Artículos de aseo</h2>
+                        <p> Los animales ensucian bastante, como todo ser vivo, 
+                        y necesitan una constante limpieza en su lugar de residencia. 
+                        Ya sea un trapeador o un limpia pisos, todos estos objetos serán 
+                        de gran ayuda para mantener el lugar libre de enfemedades y suciedad.</p>
+                    </div>
+                    <div class="punto">
+                        <h2>Periódicos y revistas</h2>
+                    <p>Se utilizan para los cachorros de perro y para forrar los suelos de los cheniles.</p>
+                    </div>
+                </div>
+                <div id="ImagenLateral">
+                    <img src="Imagenes/Donacion.jpg" alt="">
+                </div>
+            </article>
+        </main>
+        <article>
+            <!--Div con informacion para donar dinero al refugio-->
+            <div id="DonacionCuentas">
+                <h5>Vamos a salvar la vida de las pequeñas mascotas</h5>
+                <h2>Donar</h2>
+                <h4>Nombre de las cuentas:</h4>
+                <p>Bienestar Animal Cochabamba</p> 
+                <h4>Transferencia bancaria a:</h4>
+                <ul>
+                    <li>Cuenta Nº 4021698924 Banco Mercantil Santa Cruz
+                        Código Swift: MERBBOLX</li>
+                    <li>No: 428589000001 BANCO SOL – Bolivia</li>
+                    <li>Desde cualquier parte del mundo mediante: <br>
+                        PAYPAL: BienestarAnimal@yahoo.com</li>
+                </ul>
+            </div>
+        </article>
+        <!--Donde puede dejar las donaciones-->
+        <p id="DireccionEntrega">Las donaciones las pueden entregar en la Av. Beijing esq. 
+            Dorbigni acera sureste cochabamba. Teléfonos 2308080 -77229500.</p>
+        <!--Mensaje-->
+        <h2 id="Mensaje">Recuerda que cualquier ayuda es importante para nosotros.</h2>  
+
+    </div>
+    <!--Pie de pagina-->
+    <footer>
+        <!--Logo-->
+        <img src="Imagenes/Logotipo.jpg" alt="">
+        <!--Informacion de la organizacion-->
+        <div id="Contenedor">
+            <div id="Direccion">
+                <h3>Dirección</h3>
+                <p class="direccion"><i class="flaticon-marcador-de-posicion"></i> Av. Beijing esq. Dorbigni acera sureste
+                    Cochabamba.</p>
+                <p class="telefono"><i class="flaticon-llamada-telefonica"></i> Teléfono: 2308080 -77229500</p>
+            </div>
+        </div>
+        <!--Redes sociales-->
+        <div id="RedesSociales">
+            <ul>
+                <li class="Redes Facebook"><img src="Imagenes/facebook.svg" alt="">Bienestar Animal CBBA</li>
+                <li class="Redes Instagram"><img src="Imagenes/instagram.svg" alt=""> @Bienestar_Animal</li>
+                <li class="Redes Youtube"><img src="Imagenes/youtube.svg" alt="">Bienestar Animal Play</li>
+            </ul>
+        </div>
+        <div class="Creditos">
+            <h6>Desarrollado por:</h6>
+            <p>Claudia Abigail Escobar Lazarte</p>
+            <p>Estudiante de Ingenieria de sistemas</p><br>
+            <a href="https://api.whatsapp.com/send?phone=59175465614&text=Hola!%20Quiero%20mas%20informacion%20sobre%20tu%20trabajo." target="_blank">Contactame!</a><br><br>
+        </div>
+        <div id="DerechosReservados">
+            <div>
+                <p>
+                    Bienestar Animal Bolivia © 2020 | All Rights Reserved <br><br>
+                    <script src="JS/ObtenerFechaHora.js"></script>
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+
+<!--JS-->
+<script src="JS/Menu.js"></script>
+
+</body>
+</html>

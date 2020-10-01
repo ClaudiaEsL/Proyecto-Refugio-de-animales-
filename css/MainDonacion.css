@@ -1,0 +1,151 @@
+/*Imagen*/
+#ContenedorImagen img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.Pagina{
+    color:#C70039;
+    margin: 5%;
+    text-align:start;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+}
+/*Infomacion sobre que puede donar*/
+article{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+#Contenido{
+    padding:5%;
+    width: 50%;
+}
+#ImagenLateral{
+    width: 40%;
+}
+#ImagenLateral img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+h1{
+    padding-left: 3%;
+    margin: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    color:#ff5833;
+    font-size: 23px;
+}
+h5{
+    padding-left: 3%;
+    margin: 20px;
+    font-family: 'Domine', serif;
+    font-weight: bold;
+    color:#ff5833;
+    font-size: 23px;
+}
+#Contenido .punto h2{
+    padding: 1%;
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+}
+#Contenido .punto p{
+    padding:2%;
+    font-size:15px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+/*Donacion a travez de cuentas*/
+#DonacionCuentas{
+    width: 50%;
+    padding: 5%;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 10px;
+}
+#DonacionCuentas h1{
+    font-weight: bold;
+    font-family: 'Grandstander', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+#DonacionCuentas h2{
+    color:#C70039;
+    padding: 1%;
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+}
+#DonacionCuentas h4{
+    font-weight: bold;
+    padding:1%;
+    font-family: 'Grandstander', cursive;
+    font-size: 16px;
+}
+#DonacionCuentas p{
+    padding:1%;
+    font-family: 'Grandstander', cursive;
+    font-size: 15px;
+}
+#DonacionCuentas ul li{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    padding: 2%;
+    margin: 1%;
+    list-style-type: square;
+}
+#DireccionEntrega{
+    font-weight: bold;
+    padding: 10% 5% 10% 5%;
+    font-family: 'Grandstander', cursive;
+    font-size: 16px;
+}
+/*Mensaje final*/
+#Mensaje{
+    text-align: center;
+    font-family: 'Grandstander', cursive;
+    font-size: 22px;
+    padding-bottom: 5%;
+}
+@media screen and (max-width:800px){
+    h1{
+        font-size: 20px;
+    }
+    #ImagenLateral{
+        width: 100%;
+        padding:5%;
+    }
+    #DonacionCuentas{
+        width: 80%;
+    }
+    #DonacionCuentas h1{
+        font-size: 18px;
+    }
+    #DonacionCuentas h2{
+        font-size: 15px;
+    }
+    #Contenido{
+        padding:5%;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #Contenido .punto h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    #Contenido .punto p{
+        font-size:15px;
+        padding:0 1% 0 5%;
+    }
+    #DireccionEntrega{
+        font-size: 13px;
+    }
+    #Mensaje{
+        font-size: 15px;
+    }
+    #DonacionCuentas ul li{
+        font-size: 13px;
+        padding: 2%;
+        margin: 2%;
+    }
+}

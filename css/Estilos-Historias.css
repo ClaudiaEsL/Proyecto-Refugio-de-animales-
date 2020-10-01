@@ -1,0 +1,75 @@
+/*Estilos globales*/
+.TituloYSubcontenido{
+    width: 100%;
+    margin: 2% 0 2% 5%;
+}
+.TituloYSubcontenido h1{
+    color:#C70039;
+    margin: 11px;
+    text-align:start;
+    font-size: 28px;
+    font-family: 'Grandstander', cursive;
+}
+.TituloYSubcontenido p{
+    padding:10px;
+    font-size:18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    width:80%
+}
+.perritos div > h2{
+    font-family:'Grandstander';
+    font-size: 25px;
+    margin-bottom: 3%;
+    color:#000000f8;
+}
+img{
+    width: 55%;
+    margin-bottom: 1%;
+}
+.perritos p{
+    font-size: 25px;
+    width: 80%;
+}
+.perritos .perrito p{
+    padding: 2%;
+    font-family: 'Domine', serif;
+    font-size: 17px;
+    text-align: center;
+}
+/*Contenedor padre*/
+.perritos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 0% 5% 0%;
+}
+.perrito{
+    background-color:#ff58335b;
+    width: 50%;
+    margin: 1%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:600px){
+    /*Estilos globales*/
+    .TituloYSubcontenido{
+        width: 80%;
+        margin: 30px;
+    }
+    .TituloYSubcontenido h1{
+        font-size: 23px;
+        padding: 5px;
+    }
+    .perritos p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .perrito{
+        width: 90%;
+    }
+    .perritos div > h2{
+        font-size: 20px;
+    }
+}
